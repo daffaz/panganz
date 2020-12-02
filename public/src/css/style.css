@@ -1,0 +1,17 @@
+/* font-family: 'Lora', serif;
+font-family: 'Merriweather', serif; */
+
+h1 {
+  font-family: "Lora", serif;
+}
+.nav-item > .nav-link {
+  font-family: "Merriweather", serif;
+  color: black;
+}
+.vh-15 {
+  height: 15vh;
+}
+.vh-75 {
+  color: red;
+  height: 85vh;
+}
