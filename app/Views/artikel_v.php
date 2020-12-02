@@ -13,7 +13,7 @@
                         lagi trending, artikel terkini, ataupun artikel
                         yang sudah lawas.
                     </p>
-                    <button class="btn btn-hijau p-3 mt-4 rounded-pill"><strong>Mulai membaca <i class="fas fa-chevron-right"></i></strong></button>
+                    <button class="btn btn-lg btn-hijau p-3 mt-4 px-5 rounded-pill"><span class="h4 text-capitalize">Mulai membaca <i class="fas fa-chevron-right"></i></span></button>
                 </div>
                 <div class="col-lg-6 col-sm-12 mt-sm-5">
                     <img class="img-fluid" src="<?= base_url('src/img/ilustrasi1.png'); ?>" />
@@ -34,8 +34,7 @@
                         seperti apa yang sedang menyita perhatian
                         banyak orang
                     </p>
-                    <button class="btn btn-kuning p-3 mt-4 rounded-pill"><strong>Baca sekarang <i class="fas fa-chevron-right"></i></strong></button>
-
+                    <button class="btn btn-lg btn-kuning p-3 mt-4 px-5 rounded-pill"><span class="h4 text-capitalize">Baca sekarang <i class="fas fa-chevron-right"></i></span></button>
                 </div>
                 <div class="col-lg-6 col-sm-12 mt-sm-5 pt-5">
                     <img class="img-fluid" src="<?= base_url('src/img/ilustrasi2.png'); ?>" />
@@ -57,7 +56,7 @@
                     dapat menangin semua essay bertemakan
                     pangan lokal.
                 </p>
-                <button class="btn btn-hijau p-3 mt-4 rounded-pill"><strong>Baca sekarang <i class="fas fa-chevron-right"></i></strong></button>
+                <button class="btn btn-lg btn-hijau p-3 mt-4 px-5 rounded-pill"><span class="h4 text-capitalize">Baca sekarang <i class="fas fa-chevron-right"></i></span></button>
             </div>
             <div class="col-lg-6 col-sm-12 mt-sm-5">
                 <img class="img-fluid" src="<?= base_url('src/img/ilustrasi3.png'); ?>" />
@@ -77,8 +76,7 @@
                         sediain fitur untukmu agar kamu bisa baca
                         artikel yang udah lawas.
                     </p>
-                    <button class="btn btn-kuning p-3 mt-4 rounded-pill"><strong>Baca sekarang <i class="fas fa-chevron-right"></i></strong></button>
-
+                    <button class="btn btn-lg btn-kuning p-3 mt-4 px-5 rounded-pill"><span class="h4 text-capitalize">Baca sekarang <i class="fas fa-chevron-right"></i></span></button>
                 </div>
                 <div class="col-lg-6 col-sm-12 mt-sm-5 pt-5">
                     <img class="img-fluid" src="<?= base_url('src/img/ilustrasi4.png'); ?>" />
