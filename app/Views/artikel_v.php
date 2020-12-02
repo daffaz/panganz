@@ -1,6 +1,6 @@
-<section id="artikel">
+<section id="artikel" class="mt-5">
     <!-- SECTION 1 -->
-    <div class="vh-100">
+    <div class="min-vh-100">
         <div class="container">
             <div class="row pt-4">
                 <div class="col-lg-6 col-sm-12">
@@ -15,14 +15,14 @@
                     </p>
                     <button class="btn btn-lg btn-hijau p-3 mt-4 px-5 rounded-pill"><span class="h4 text-capitalize">Mulai membaca <i class="fas fa-chevron-right"></i></span></button>
                 </div>
-                <div class="col-lg-6 col-sm-12 mt-sm-5">
+                <div class="col-lg-6 col-sm-12 mt-5">
                     <img class="img-fluid" src="<?= base_url('src/img/ilustrasi1.png'); ?>" />
                 </div>
             </div>
         </div>
     </div>
     <!-- SECTION 2 -->
-    <div class="vh-100 bg-hijau">
+    <div class="min-vh-100 bg-hijau">
         <div class="container">
             <div class="row pt-5">
                 <div class="col-lg-6 col-sm-12 pt-5">
@@ -36,35 +36,37 @@
                     </p>
                     <button class="btn btn-lg btn-kuning p-3 mt-4 px-5 rounded-pill"><span class="h4 text-capitalize">Baca sekarang <i class="fas fa-chevron-right"></i></span></button>
                 </div>
-                <div class="col-lg-6 col-sm-12 mt-sm-5 pt-5">
+                <div class="col-lg-6 col-sm-12 pt-5 mt-5">
                     <img class="img-fluid" src="<?= base_url('src/img/ilustrasi2.png'); ?>" />
                 </div>
             </div>
         </div>
     </div>
     <!-- SECTION 3 -->
-    <div class="container vh-100">
-        <div class="row pt-4">
-            <div class="col-lg-6 col-sm-12">
-                <h1 class="heading h2 mt-5 text-lg-left text-sm-center"><strong>Artikel terkini</strong></h1>
-                <p class="mt-4 h4 text-hijau badan text-lg-left text-sm-center">Yuk update pengetahuanmu dengan
-                    artikel terkini!
-                </p>
-                <p class="mt-4 h4 badan">Dengan membaca artikel seputar pangan tiap
-                    hari, dijamin deh kamu jadi orang yang
-                    berpikiran terbuka. Bahkan, bisa jadi kamu
-                    dapat menangin semua essay bertemakan
-                    pangan lokal.
-                </p>
-                <button class="btn btn-lg btn-hijau p-3 mt-4 px-5 rounded-pill"><span class="h4 text-capitalize">Baca sekarang <i class="fas fa-chevron-right"></i></span></button>
-            </div>
-            <div class="col-lg-6 col-sm-12 mt-sm-5">
-                <img class="img-fluid" src="<?= base_url('src/img/ilustrasi3.png'); ?>" />
+    <div class="min-vh-100">
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-lg-6 col-sm-12">
+                    <h1 class="heading h2 mt-5 text-lg-left text-sm-center"><strong>Artikel terkini</strong></h1>
+                    <p class="mt-4 h4 text-hijau badan text-lg-left text-sm-center">Yuk update pengetahuanmu dengan
+                        artikel terkini!
+                    </p>
+                    <p class="mt-4 h4 badan">Dengan membaca artikel seputar pangan tiap
+                        hari, dijamin deh kamu jadi orang yang
+                        berpikiran terbuka. Bahkan, bisa jadi kamu
+                        dapat menangin semua essay bertemakan
+                        pangan lokal.
+                    </p>
+                    <button class="btn btn-lg btn-hijau p-3 mt-4 px-5 rounded-pill"><span class="h4 text-capitalize">Baca sekarang <i class="fas fa-chevron-right"></i></span></button>
+                </div>
+                <div class="col-lg-6 col-sm-12 mt-5">
+                    <img class="img-fluid" src="<?= base_url('src/img/ilustrasi3.png'); ?>" />
+                </div>
             </div>
         </div>
     </div>
     <!-- SECTION 4 -->
-    <div class="vh-100 bg-hijau">
+    <div class="min-vh-100 bg-hijau">
         <div class="container">
             <div class="row pt-5">
                 <div class="col-lg-6 col-sm-12 pt-5">
@@ -78,7 +80,7 @@
                     </p>
                     <button class="btn btn-lg btn-kuning p-3 mt-4 px-5 rounded-pill"><span class="h4 text-capitalize">Baca sekarang <i class="fas fa-chevron-right"></i></span></button>
                 </div>
-                <div class="col-lg-6 col-sm-12 mt-sm-5 pt-5">
+                <div class="col-lg-6 col-sm-12 pt-5 mt-5">
                     <img class="img-fluid" src="<?= base_url('src/img/ilustrasi4.png'); ?>" />
                 </div>
             </div>

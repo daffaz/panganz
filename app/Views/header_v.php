@@ -20,7 +20,7 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent vh-15">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white vh-15">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <h1 class="font-weight-bolder">PanganZ</h1>
