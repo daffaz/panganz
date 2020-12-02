@@ -1,0 +1,7 @@
+=====FONT=======
+HEADING : Lora
+BODY : Merriweather
+=====COLOR======
+WARNA IJO : #216869
+WARNA KUNING (BUTTON) = #FFC700
+WARNA HITAM (FOOTER) = #1F2421

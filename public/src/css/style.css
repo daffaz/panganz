@@ -1,17 +1,42 @@
 /* font-family: 'Lora', serif;
 font-family: 'Merriweather', serif; */
 
-h1 {
+.navbar-brand {
   font-family: "Lora", serif;
 }
 .nav-item > .nav-link {
   font-family: "Merriweather", serif;
   color: black;
 }
-.vh-15 {
-  height: 15vh;
+.heading {
+  font-family: "Lora", serif;
 }
-.vh-75 {
-  color: red;
-  height: 85vh;
+.badan {
+  font-family: "Merriweather", serif;
+  letter-spacing: 2px;
+}
+.text-hijau {
+  color: #216869;
+}
+.text-kuning {
+  color: #ffc700;
+}
+.btn-hijau {
+  background-color: #216869;
+  color: white;
+}
+.btn-kuning {
+  background-color: #ffc700;
+  color: white;
+}
+.btn-hijau:hover {
+  background-color: rgb(24, 74, 75);
+  color: white;
+}
+.btn-kuning:hover {
+  background-color: #b48f09;
+  color: white;
+}
+.bg-hijau {
+  background-color: #216869;
 }
