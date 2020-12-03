@@ -40,3 +40,17 @@ font-family: 'Merriweather', serif; */
 .bg-hijau {
   background-color: #216869;
 }
+.card {
+  border-radius: 13px;
+}
+.card-body {
+  color: #314455;
+}
+.card-judul-gambar {
+  position: absolute;
+  top: 40px;
+  left: 23%;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  width: 6em;
+}
