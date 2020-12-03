@@ -7,14 +7,14 @@ WARNA KUNING (BUTTON) = #FFC700
 WARNA HITAM (FOOTER) = #1F2421
 
 Ino : 
-- Footer
-- Kontak
+- Footer (Check)
+- Kontak (Check)
+- Artikel Trending, Lawas, Terkini (Check)
 - Halaman Bantuan
-- Artikel Trending, Lawas, Terkini
 
 Dapa : 
 - Navbar (Check)
 - Artikel (Check)
 - Acara (Check)
-- Detail Acara
+- Detail Acara (Check)
 - Detail Artikel
