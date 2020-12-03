@@ -10,6 +10,12 @@ class Acara extends BaseController
         echo view('acara/acara_v');
         echo view('footer_v');
     }
+    public function acara1()
+    {
+        echo view('header_v');
+        echo view('acara/acara_detail_v');
+        echo view('footer_v');
+    }
 
     //--------------------------------------------------------------------
 

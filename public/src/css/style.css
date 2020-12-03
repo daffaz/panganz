@@ -54,3 +54,15 @@ font-family: 'Merriweather', serif; */
   font-weight: bolder;
   width: 6em;
 }
+.price {
+  background-color: #7ea04d;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  transition: ease 0.1s;
+}
+.price:hover {
+  background-color: hsl(110, 39%, 40%);
+}
+/* .breadcrumb-item a {
+  color: black;
+} */
