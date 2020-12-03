@@ -5,3 +5,16 @@ BODY : Merriweather
 WARNA IJO : #216869
 WARNA KUNING (BUTTON) = #FFC700
 WARNA HITAM (FOOTER) = #1F2421
+
+Ino : 
+- Footer
+- Kontak
+- Halaman Bantuan
+- Artikel Trending, Lawas, Terkini
+
+Dapa : 
+- Navbar (Check)
+- Artikel (Check)
+- Acara
+- Detail Acara
+- Detail Artikel

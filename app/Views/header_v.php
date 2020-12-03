@@ -16,6 +16,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="<?= base_url('src/css/style.css'); ?>" />
 
+    <style>
+        li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        #bagian-utama-footer {
+            padding: 25px 0;
+            background-color: #1f2421;
+        }
+
+        @media (min-width: 1200px) {
+            .baris-1-kolom-1-footer {
+                margin-left: -35px;
+            }
+
+            .baris-1-kolom-2 p {
+                font-size: 12px;
+            }
+
+            .garis {
+                border-left: 2px solid white;
+                height: 64px;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
