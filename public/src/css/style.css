@@ -4,48 +4,61 @@ font-family: 'Merriweather', serif; */
 .navbar-brand {
   font-family: "Lora", serif;
 }
+
 .nav-item > .nav-link {
   font-family: "Merriweather", serif;
   color: black;
 }
+
 .heading {
   font-family: "Lora", serif;
 }
+
 .badan {
   font-family: "Merriweather", serif;
   letter-spacing: 2px;
 }
+
 .text-hijau {
   color: #216869;
 }
+
 .text-kuning {
   color: #ffc700;
 }
+
 .btn-hijau {
   background-color: #216869;
   color: white;
 }
+
 .btn-kuning {
   background-color: #ffc700;
   color: white;
 }
+
 .btn-hijau:hover {
   background-color: rgb(24, 74, 75);
   color: white;
 }
+
 .btn-kuning:hover {
   background-color: #b48f09;
   color: white;
 }
+
 .bg-hijau {
   background-color: #216869;
 }
+
 .card {
   border-radius: 13px;
 }
+
 .card-body {
   color: #314455;
 }
+
 .card-judul-gambar {
   position: absolute;
   top: 40px;
@@ -54,15 +67,19 @@ font-family: 'Merriweather', serif; */
   font-weight: bolder;
   width: 6em;
 }
+
 .price {
   background-color: #7ea04d;
   border-radius: 15px;
   font-size: 1.4rem;
   transition: ease 0.1s;
 }
+
 .price:hover {
   background-color: hsl(110, 39%, 40%);
 }
-/* .breadcrumb-item a {
-  color: black;
-} */
+
+hr {
+  border: 1px solid #aaa;
+  width: 67.2em;
+}
