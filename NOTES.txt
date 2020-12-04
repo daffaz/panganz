@@ -11,10 +11,11 @@ Ino :
 - Kontak (Check)
 - Artikel Trending, Lawas, Terkini (Check)
 - Halaman Bantuan
+- Bersih-bersih
 
 Dapa : 
 - Navbar (Check)
 - Artikel (Check)
 - Acara (Check)
 - Detail Acara (Check)
-- Detail Artikel
+- Detail Artikel (Check)
