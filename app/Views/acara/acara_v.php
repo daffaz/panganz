@@ -9,7 +9,7 @@
             <div class="row mt-1">
                 <div class="col-lg-4 mt-4">
                     <div class="shadow card border-0" style="width: 23rem;">
-                        <a href="https://google.com" target="_blank">
+                        <a href="<?= base_url('acara/acara1') ?>">
                             <div class="card-judul" style="position:relative">
                                 <img class="card-img-top" src="<?= base_url('src/img/acara1.svg') ?>" alt="Card image cap">
                                 <h1 class="h1 heading text-white card-judul-gambar"><strong>Agriday!</strong></h1>

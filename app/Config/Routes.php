@@ -36,6 +36,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/acara', 'Acara::index');
 // ARTIKEL
 $routes->get('/artikel', 'Artikel::index');
+$routes->get('/artikel/lawas/artikel1', 'Artikel::artikel1');
 
 
 /**

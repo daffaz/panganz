@@ -28,6 +28,12 @@ class Artikel extends BaseController
         echo view('artikel/artikel_lawas_v');
         echo view('footer_v');
     }
+    public function artikel1()
+    {
+        echo view('header_v');
+        echo view('artikel/artikel_detail_lawas1_v');
+        echo view('footer_v');
+    }
 
     //--------------------------------------------------------------------
 
