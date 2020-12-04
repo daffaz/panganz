@@ -14,9 +14,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- TINY SLIDER -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="<?= base_url('src/css/style.css'); ?>" />
 
     <style>
+        .navbar-brand {
+            font-family: "Lora", serif;
+        }
+
+        .nav-item>.nav-link {
+            font-family: "Merriweather", serif;
+            color: black;
+        }
+
+        .heading {
+            font-family: "Lora", serif;
+        }
+
+        .badan {
+            font-family: "Merriweather", serif;
+            letter-spacing: 2px;
+        }
+
+        .text-hijau {
+            color: #216869;
+        }
+
+        .text-kuning {
+            color: #ffc700;
+        }
+
+        .btn-hijau {
+            background-color: #216869;
+            color: white;
+        }
+
+        .btn-kuning {
+            background-color: #ffc700;
+            color: white;
+        }
+
+        .btn-hijau:hover {
+            background-color: rgb(24, 74, 75);
+            color: white;
+        }
+
+        .btn-kuning:hover {
+            background-color: #b48f09;
+            color: white;
+        }
+
+        .bg-hijau {
+            background-color: #216869;
+        }
+
         li {
             list-style: none;
             padding: 0;
@@ -40,6 +93,10 @@
             background-color: #1f2421;
         }
 
+        .jumbotron {
+            background-color: #216869;
+        }
+
         @media (min-width: 1200px) {
             .baris-1-kolom-1-footer {
                 margin-left: -35px;
@@ -51,7 +108,7 @@
 
             .garis {
                 border-left: 2px solid white;
-                height: 64px;
+                height: 84px;
             }
         }
     </style>
@@ -62,7 +119,7 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white vh-15">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?= base_url('/') ?>">
                 <h1 class="font-weight-bolder">PanganZ</h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

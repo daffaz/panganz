@@ -76,7 +76,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content.
-                                <a href="#">
+                                <a href="<?= base_url('artikel/lawas/artikel1') ?>">
                                     <strong> Baca selengkapnya</strong>
                                 </a>
                             </p>
