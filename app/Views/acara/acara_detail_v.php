@@ -5,19 +5,20 @@
                 <ol class="breadcrumb bg-white heading">
                     <li class="breadcrumb-item"><a href="<?= base_url('/') ?>" class="text-dark">Home</a></li>
                     <li class="breadcrumb-item"><a href="<?= base_url('/acara') ?>" class="text-dark">Acara</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Acara1</li>
+                    <li class="breadcrumb-item active" aria-current="page"><?= $dataAcara->acara ?></li>
                 </ol>
             </nav>
             <div class="row pt-3">
+                <?php $dataAcara->id < 6 ? $nomor = $dataAcara->id : $nomor = rand(1, 5) ?>
                 <div class="col-lg-6 col-sm-12">
-                    <img src="<?= base_url('src/img/detail_acara/acara1.svg') ?>" class="img-fluid position-relative">
-                    <h1 class="position-absolute text-white font-weight-bold" style="top: 40%;left:23%;font-size: 4.8rem">Agriday!</h1>
+                    <img src="<?= base_url('src/img/detail_acara/acara' . $nomor . '.svg') ?>" class="img-fluid position-relative">
+                    <h1 class="position-absolute text-white font-weight-bold" style="top: 38%;left:20%;font-size: 4.8rem"><?= $dataAcara->acara ?></h1>
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <div class="mt-lg-0 mt-xs-5">
                         <div class="price d-inline-block text-center text-white font-weight-bold py-1 px-5">GRATIS</div>
                     </div>
-                    <h1 class="heading font-weight-bold mt-3" style="color: #2D874F">Agriday</h1>
+                    <h1 class="heading font-weight-bold mt-3" style="color: #2D874F"><?= $dataAcara->acara ?></h1>
                     <h3 class="badan my-4"><strong>Tiket untuk: </strong>1 orang</h3>
                     <p class="badan h4">Your cooked meals and vacuum-packed bistro meals
                         delivered in your daily life, every Tuesday, in several

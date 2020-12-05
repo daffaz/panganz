@@ -7,90 +7,25 @@
                 </div>
             </div>
             <div class="row mt-1">
-                <div class="col-lg-4 mt-4">
-                    <div class="shadow card border-0" style="width: 23rem;">
-                        <a href="<?= base_url('acara/acara1') ?>">
-                            <div class="card-judul" style="position:relative">
-                                <img class="card-img-top" src="<?= base_url('src/img/acara1.svg') ?>" alt="Card image cap">
-                                <h1 class="h1 heading text-white card-judul-gambar"><strong>Agriday!</strong></h1>
+                <?php $nomor = 1 ?>
+                <?php foreach ($dataAcara as $d) : ?>
+                    <div class="col-lg-4 mt-4">
+                        <div class="shadow card border-0" style="width: 23rem;">
+                            <a href="<?= base_url('Acara/detail/' . $d->id) ?>">
+                                <div class="card-judul" style="position:relative">
+                                    <img class="card-img-top" src="<?= base_url('src/img/acara' . $nomor . '.svg') ?>" alt="Card image cap">
+                                    <h1 class="h1 heading text-white card-judul-gambar"><strong><?= $d->acara ?></strong></h1>
+                                </div>
+                            </a>
+                            <div class="card-body">
+                                <h3 class="text-center heading mt-n2"><strong><?= $d->judul ?></strong></h3>
+                                <p class="card-text heading text-center"><?= $d->konten ?></p>
                             </div>
-                        </a>
-                        <div class="card-body">
-                            <h3 class="text-center heading mt-n2"><strong>Green and pink</strong></h3>
-                            <p class="card-text heading text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="shadow card border-0" style="width: 23rem;">
-                        <a href="https://google.com" target="_blank">
-                            <div class="card-judul" style="position:relative">
-                                <img class="card-img-top" src="<?= base_url('src/img/acara2.svg') ?>" alt="Card image cap">
-                                <h1 class="h1 heading text-white card-judul-gambar"><strong>Ogoroday!</strong></h1>
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <h3 class="text-center heading mt-n2"><strong>Yellow and red</strong></h3>
-                            <p class="card-text heading text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="shadow card border-0" style="width: 23rem;">
-                        <a href="https://google.com" target="_blank">
-                            <div class="card-judul" style="position:relative">
-                                <img class="card-img-top" src="<?= base_url('src/img/acara3.svg') ?>" alt="Card image cap">
-                                <h1 class="h1 heading text-white card-judul-gambar"><strong>Hari lorem</strong></h1>
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <h3 class="text-center heading mt-n2"><strong>Purple and gray</strong></h3>
-                            <p class="card-text heading text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="shadow card border-0" style="width: 23rem;">
-                        <a href="https://google.com" target="_blank">
-                            <div class="card-judul" style="position:relative">
-                                <img class="card-img-top" src="<?= base_url('src/img/acara4.svg') ?>" alt="Card image cap">
-                                <h1 class="h1 heading text-white card-judul-gambar"><strong>Ajudanys!</strong></h1>
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <h3 class="text-center heading mt-n2"><strong>Green and pink</strong></h3>
-                            <p class="card-text heading text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="shadow card border-0" style="width: 23rem;">
-                        <a href="https://google.com" target="_blank">
-                            <div class="card-judul" style="position:relative">
-                                <img class="card-img-top" src="<?= base_url('src/img/acara5.svg') ?>" alt="Card image cap">
-                                <h1 class="h1 heading text-white card-judul-gambar"><strong>Nice nice!</strong></h1>
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <h3 class="text-center heading mt-n2"><strong>Blue and green</strong></h3>
-                            <p class="card-text heading text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 mt-4">
-                    <div class="shadow card border-0" style="width: 23rem;">
-                        <a href="https://google.com" target="_blank">
-                            <div class="card-judul" style="position:relative">
-                                <img class="card-img-top" src="<?= base_url('src/img/acara6.svg') ?>" alt="Card image cap">
-                                <h1 class="h1 heading text-white card-judul-gambar"><strong>Woke bro!</strong></h1>
-                            </div>
-                        </a>
-                        <div class="card-body">
-                            <h3 class="text-center heading mt-n2"><strong>Red and brown</strong></h3>
-                            <p class="card-text heading text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
+                    <?php $nomor++;
+                    if ($nomor == 7) $nomor = 1 ?>
+                <?php endforeach ?>
             </div>
         </div>
     </div>
