@@ -1,4 +1,4 @@
-<section class="mt-5">
+<section class="mt-5 overflow-hidden">
     <div class="min-vh-100">
         <div class="row">
             <div class="container">
@@ -26,7 +26,8 @@
         <div class="row mt-5">
             <div class="container">
                 <div class="col-12">
-                    <h1 class="badan d-inline">L</h1><span class="badan">orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <span class="h1 badan d-inline">L</span>
+                    <p class="badan text-justify d-inline">orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
                         esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
@@ -35,13 +36,13 @@
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                         aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                        qui officia deserunt mollit anim id est laborum.</span>
+                        qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="col-12 d-flex justify-content-center my-4">
                     <img class="img-fluid w-50" src="<?= base_url('src/img/artikel/detail_artikel/artikel1.png') ?>">
                 </div>
                 <div class="col-12 mt-5">
-                    <span class="badan">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="badan text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
                         esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
@@ -50,7 +51,7 @@
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                         aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                        qui officia deserunt mollit anim id est laborum.</span>
+                        qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
         </div>
@@ -64,8 +65,8 @@
                 <hr>
             </div>
         </div>
-        <div class="row my-2 overflow-auto" style="height: 200px">
-            <div class="container">
+        <div class="container">
+            <div class="row my-2 overflow-auto" style="height: 200px">
                 <div class="col-12 d-flex my-3">
                     <img class="img-fluid w-25" src="<?= base_url('src/img/artikel/detail_artikel/artikel1.png') ?>">
                     <div class="bg-hijau w-100 pl-5 py-3">
@@ -92,5 +93,6 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </section>

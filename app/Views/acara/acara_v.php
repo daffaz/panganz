@@ -13,12 +13,13 @@
                         <div class="shadow card border-0" style="width: 23rem;">
                             <a href="<?= base_url('Acara/detail/' . $d->id) ?>">
                                 <div class="card-judul" style="position:relative">
-                                    <img class="card-img-top" src="<?= base_url('src/img/acara' . $nomor . '.svg') ?>" alt="Card image cap">
+                                    <img class="card-img-top" src="<?= base_url('src/img/acara' . $nomor . '.svg') ?>">
                                     <h1 class="h1 heading text-white card-judul-gambar"><strong><?= $d->acara ?></strong></h1>
                                 </div>
                             </a>
                             <div class="card-body">
                                 <h3 class="text-center heading mt-n2"><strong><?= $d->judul ?></strong></h3>
+                                <!-- <h3 class="text-center heading mt-n2"><strong><?= $d->acara ?></strong></h3> -->
                                 <p class="card-text heading text-center"><?= $d->konten ?></p>
                             </div>
                         </div>
@@ -27,6 +28,7 @@
                     if ($nomor == 7) $nomor = 1 ?>
                 <?php endforeach ?>
             </div>
+
         </div>
     </div>
 </section>

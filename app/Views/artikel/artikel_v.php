@@ -8,7 +8,7 @@
                     <p class="mt-4 h4 text-hijau badan text-lg-left text-sm-center">Baca artikel seputar pangan Indonesia
                         secara online di website ini.
                     </p>
-                    <p class="mt-4 h4 badan">Kamu dapat menemukan dan membaca artikel
+                    <p class="mt-4 h4 badan text-justify">Kamu dapat menemukan dan membaca artikel
                         seputar pangan Indonesia. Dari mulai yang
                         lagi trending, artikel terkini, ataupun artikel
                         yang sudah lawas.

@@ -138,7 +138,7 @@
                         <a class="nav-link" href="<?= base_url('/acara') ?>">Acara</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tentang</a>
+                        <a class="nav-link" href="<?= base_url('/kontak') ?>">Kontak</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">

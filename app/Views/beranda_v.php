@@ -1,4 +1,4 @@
-<section class="mt-5">
+<section class="mt-5 overflow-hidden">
     <div class="landing-page">
 
         <div class="jumbotron jumbotron-fluid">
@@ -20,14 +20,14 @@
         </div>
 
         <section class="benefit-landing text-white">
-            <div class="kotak-ijo bg-hijau" style="padding-bottom:10vh;padding-top:10vh;margin-top: 10em;margin-bottom: 10em;">
+            <div class="kotak-ijo bg-hijau" style="padding-bottom:10vh;padding-top:10vh;margin-top: 10em;margin-bottom: 4em;">
                 <div class="container">
                     <div class="row ">
                         <div class="mr-auto col-lg-3">
                             <div class="icon-kiri text-center">
                                 <i class="fas fa-info mb-3" style="font-size:3rem"></i>
-                                <h4>Informasi dapat diandalkan</h4>
-                                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus. Vel repellendus nihil vitae. Illum vel facilis ullam dolore recusandae?</p>
+                                <h4 class="heading">Informasi dapat diandalkan</h4>
+                                <p class="mt-4 badan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus. Vel repellendus nihil vitae. Illum vel facilis ullam dolore recusandae?</p>
                             </div>
                         </div>
                         <div class="garis-landing" style="height:270px;border-left:1px solid white;"></div>
@@ -35,16 +35,16 @@
                         <div class="col-lg-3 mx-auto">
                             <div class="icon-kiri text-center">
                                 <i class="fas fa-info mb-3" style="font-size:3rem"></i>
-                                <h4>Informasi dapat diandalkan</h4>
-                                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus. Vel repellendus nihil vitae. Illum vel facilis ullam dolore recusandae?</p>
+                                <h4 class="heading">Informasi dapat diandalkan</h4>
+                                <p class="mt-4 badan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus. Vel repellendus nihil vitae. Illum vel facilis ullam dolore recusandae?</p>
                             </div>
                         </div>
                         <div class="garis-landing" style="height:270px;border-left:1px solid white;"></div>
                         <div class="col-lg-3 ml-auto">
                             <div class="icon-kiri text-center">
                                 <i class="fas fa-info mb-3" style="font-size:3rem"></i>
-                                <h4>Informasi dapat diandalkan</h4>
-                                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus. Vel repellendus nihil vitae. Illum vel facilis ullam dolore recusandae?</p>
+                                <h4 class="heading">Informasi dapat diandalkan</h4>
+                                <p class="mt-4 badan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus. Vel repellendus nihil vitae. Illum vel facilis ullam dolore recusandae?</p>
                             </div>
                         </div>
 
@@ -53,41 +53,76 @@
             </div>
         </section>
 
+        <section class="mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="heading h1 mt-5 text-center font-weight-bold"><strong>Ikuti acara ini yuk!</strong></h1>
+                        <div class="d-flex justify-content-center">
+                            <img src="<?= base_url('src/img/arrow.svg') ?>" class="my-3">
+                        </div>
+                        <h5 class="heading text-center">geser untuk melihat lebih <a href="<?= base_url('/acara') ?>" class="text-dark"><u>banyak acara</u></a></h5>
+                        <section class="max-vh-100">
+                            <div class="items">
+                                <?php $nomor = 1 ?>
+                                <?php foreach ($dataAcara as $d) : ?>
+                                    <div class="item mx-4">
+                                        <div class="shadow card border-0" style="width: 23rem;">
+                                            <div class="card-judul" style="position:relative">
+                                                <a href="<?= base_url('Acara/detail/' . $d->id) ?>">
+                                                    <img class="card-img-top" src="<?= base_url('src/img/acara' . $nomor . '.svg') ?>" alt="Card image cap">
+                                                    <h1 class="h1 heading text-white card-judul-gambar"><strong><?= $d->acara ?></strong></h1>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <h3 class="text-center heading mt-n2"><strong><?= $d->judul ?></strong></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <?php $nomor++;
+                                    if ($nomor == 7) $nomor = 1 ?>
+                                <?php endforeach ?>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="artikel-landing">
             <div class="container">
-                <h2 class="text-center">
+                <h2 class="text-center heading font-weight-bold">
                     Baca juga artikel kami!
                 </h2>
 
                 <div class="card-artikel-landing mt-5 text-center">
                     <div class="row ">
                         <div class="col-lg-4">
-                            <div class="card mb-5" style="width: 18rem;">
+                            <div class="card mb-5 border-0 shadow" style="width: 20rem;">
                                 <img class="card-img-top mx-auto" src="<?= base_url('/src/img/beranda/ilustrasi2.png') ?>" alt="Card image cap" style="width:80%;margin-top: 20px;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title heading">Card title</h5>
+                                    <p class="card-text badan">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn btn-hijau rounded-pill">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="card mx-auto" style="width: 18rem;">
+                            <div class="card mx-auto border-0 shadow" style="width: 20rem;">
                                 <img class="card-img-top mx-auto" src="<?= base_url('/src/img/beranda/ilustrasi3.png') ?>" alt="Card image cap" style="width:65%;margin-top: 13px;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title heading">Card title</h5>
+                                    <p class="card-text badan">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn btn-hijau rounded-pill">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="card ml-auto" style="width: 18rem;">
+                            <div class="card ml-auto border-0 shadow" style="width: 20rem;">
                                 <img class="card-img-top mx-auto" src="<?= base_url('/src/img/beranda/ilustrasi4.png') ?>" alt="Card image cap" style="width:75%;margin-top: 15px;">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title heading">Card title</h5>
+                                    <p class="card-text badan">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                     <a href="#" class="btn btn-hijau rounded-pill">Go somewhere</a>
                                 </div>
                             </div>
