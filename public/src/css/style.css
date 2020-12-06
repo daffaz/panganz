@@ -62,24 +62,73 @@ font-family: 'Merriweather', serif; */
 .card-judul-gambar {
   position: absolute;
   top: 40px;
-  left: 23%;
+  left: 60px;
   letter-spacing: 1px;
   font-weight: bolder;
   width: 6em;
+  text-align: center !important;
 }
-
+button:focus {
+  outline: none;
+}
 .price {
   background-color: #7ea04d;
   border-radius: 15px;
   font-size: 1.4rem;
-  transition: ease 0.1s;
+  transition: ease 0.2s;
+}
+.priceM {
+  background-color: #ac5347;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  transition: ease 0.2s;
 }
 
 .price:hover {
   background-color: hsl(110, 39%, 40%);
+}
+.priceM:hover {
+  background-color: hsl(4, 71%, 42%);
 }
 
 hr {
   border: 1px solid #aaa;
   width: 67.2em;
 }
+/* CUSTOM CSS */
+.items {
+  padding: 100px;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  transform: scale(1);
+  will-change: transform;
+  position: relative;
+  /* background: rgba(255, 255, 255, 0.1); */
+  font-size: 16px;
+}
+.items::-webkit-scrollbar {
+  display: none;
+}
+.items.active {
+  /* background: rgba(255, 255, 255, 0.3); */
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  transform: scale(1.09);
+}
+
+.item {
+  /* width: 100%; */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+  color: rgba(68, 31, 31, 0.15);
+  /* box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.15); */
+}
+
+/* END */
