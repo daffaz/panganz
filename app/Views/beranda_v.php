@@ -5,9 +5,8 @@
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-lg-6 text-white">
-                        <h1 class="mt-5">Fluid jumbotron</h1>
-                        <p class="lead text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque temporibus adipisci dolores consequatur quam debitis delectus error vitae accusamus eius reprehenderit pariatur, tenetur reiciendis omnis dolorem magnam possimus sint
-                            ut!
+                        <h1 class="mt-5">Pangan Era Baru</h1>
+                        <p class="lead text-justify">Pangan dan produk pangan mempunyai sumbangan cukup besar pada perekonomian nasional, berpengaruh terhadap inflasi. Industri pangan dan minuman menjadi penyumbang ke 2 terbesar Pendapatan Domestik Bruto non migas
                         </p>
                     </div>
                     <div class="col-lg-6">
@@ -25,26 +24,26 @@
                     <div class="row ">
                         <div class="mr-auto col-lg-3">
                             <div class="icon-kiri text-center">
-                                <i class="fas fa-info mb-3" style="font-size:3rem"></i>
+                                <i class="fas fa-desktop mb-3" style="font-size:3rem"></i>
                                 <h4 class="heading">Informasi dapat diandalkan</h4>
-                                <p class="mt-4 badan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus. Vel repellendus nihil vitae. Illum vel facilis ullam dolore recusandae?</p>
+                                <p class="mt-4 badan">Indonesia mempunyai potensi besar menghasilkan tepung singkong, jagung dan pati sagu</p>
                             </div>
                         </div>
                         <div class="garis-landing" style="height:270px;border-left:1px solid white;"></div>
 
                         <div class="col-lg-3 mx-auto">
                             <div class="icon-kiri text-center">
-                                <i class="fas fa-info mb-3" style="font-size:3rem"></i>
-                                <h4 class="heading">Informasi dapat diandalkan</h4>
-                                <p class="mt-4 badan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus. Vel repellendus nihil vitae. Illum vel facilis ullam dolore recusandae?</p>
+                                <i class="fas fa-comment-dots mb-3" style="font-size:3rem"></i>
+                                <h4 class="heading">Berita yang persuasif</h4>
+                                <p class="mt-4 badan">Mengajak semua stakeholder untuk mulai mewujudkan gerakan melokalkan bahan baku lokal</p>
                             </div>
                         </div>
                         <div class="garis-landing" style="height:270px;border-left:1px solid white;"></div>
                         <div class="col-lg-3 ml-auto">
                             <div class="icon-kiri text-center">
-                                <i class="fas fa-info mb-3" style="font-size:3rem"></i>
-                                <h4 class="heading">Informasi dapat diandalkan</h4>
-                                <p class="mt-4 badan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, delectus. Vel repellendus nihil vitae. Illum vel facilis ullam dolore recusandae?</p>
+                                <i class="fas fa-clock mb-3" style="font-size:3rem"></i>
+                                <h4 class="heading">Menuju perubahan</h4>
+                                <p class="mt-4 badan">Industri pangan dan produk pangan saat ini masih banyak menggunakan bahan baku impor</p>
                             </div>
                         </div>
 
@@ -75,7 +74,7 @@
                                                 </a>
                                             </div>
                                             <div class="card-body">
-                                                <h3 class="text-center heading mt-n2"><strong><?= $d->judul ?></strong></h3>
+                                                <h3 class="text-center heading mt-n2" style="font-size: 1.5rem"><strong><?= $d->judul ?></strong></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -101,9 +100,9 @@
                             <div class="card mb-5 border-0 shadow" style="width: 20rem;">
                                 <img class="card-img-top mx-auto" src="<?= base_url('/src/img/beranda/ilustrasi2.png') ?>" alt="Card image cap" style="width:80%;margin-top: 20px;">
                                 <div class="card-body">
-                                    <h5 class="card-title heading">Card title</h5>
-                                    <p class="card-text badan">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-hijau rounded-pill">Go somewhere</a>
+                                    <h5 class="card-title heading">Artikel Trending</h5>
+                                    <p class="card-text badan">Kepala Badan Ketahanan Pangan (BKP) Kementerian Pertanian, Agung Hendriadi pada seminar dan workshop Internasional Plant Industry mengajak semua pihak melokalkan bahan baku industri FPF di Universitas Jember, Kamis (1/11)</p>
+                                    <a href="<?= base_url('artikel') ?>" class="btn btn-hijau rounded-pill">Baca selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -111,9 +110,9 @@
                             <div class="card mx-auto border-0 shadow" style="width: 20rem;">
                                 <img class="card-img-top mx-auto" src="<?= base_url('/src/img/beranda/ilustrasi3.png') ?>" alt="Card image cap" style="width:65%;margin-top: 13px;">
                                 <div class="card-body">
-                                    <h5 class="card-title heading">Card title</h5>
-                                    <p class="card-text badan">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-hijau rounded-pill">Go somewhere</a>
+                                    <h5 class="card-title heading">Artikel Terkini</h5>
+                                    <p class="card-text badan">Agung menantang civitas academica Universitas Jember bisa mendapatkan inovasi dan teknologi budidaya singkong yang mempunyai provitas 80 ton/ha</p>
+                                    <a href="<?= base_url('artikel') ?>" class="btn btn-hijau rounded-pill">Baca selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -121,9 +120,9 @@
                             <div class="card ml-auto border-0 shadow" style="width: 20rem;">
                                 <img class="card-img-top mx-auto" src="<?= base_url('/src/img/beranda/ilustrasi4.png') ?>" alt="Card image cap" style="width:75%;margin-top: 15px;">
                                 <div class="card-body">
-                                    <h5 class="card-title heading">Card title</h5>
-                                    <p class="card-text badan">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-hijau rounded-pill">Go somewhere</a>
+                                    <h5 class="card-title heading">Artikel Lawas</h5>
+                                    <p class="card-text badan">Tahun 2018 impor gandum dan terigu diperkirakan lebih dari 11 juta ton atau meningkat rata-rata 12,2%/tahun</p>
+                                    <a href="<?= base_url('artikel') ?>" class="btn btn-hijau rounded-pill">Baca selengkapnya</a>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +133,7 @@
 
 
     </div>
-    <div class="min-vh-100">
+    <!-- <div class="min-vh-100">
         <div class="row">
             <div class="col mt-5">
                 <div class="jumbotron">
@@ -206,5 +205,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>

@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class AcaraModel extends Model
+class ArtikelLawasModel extends Model
 {
-    protected $table      = 'tbl_acara';
+    protected $table      = 'tbl_artikel_lawas';
     protected $primaryKey = 'id';
 
     protected $returnType     = 'object';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['acara', 'judul', 'konten', 'harga'];
+    protected $allowedFields = ['judul', 'organisasi', 'nama', 'tanggal', 'berita', 'gambar', 'berita2'];
 
     protected $useTimestamps = false;
     protected $createdField  = 'created_at';

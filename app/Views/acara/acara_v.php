@@ -28,7 +28,6 @@
                     if ($nomor == 7) $nomor = 1 ?>
                 <?php endforeach ?>
             </div>
-
         </div>
     </div>
 </section>

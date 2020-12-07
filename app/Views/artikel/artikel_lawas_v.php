@@ -43,7 +43,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mt-5 text-center">
-                <h2 class="heading">Artikel lawas</h2>
+                <h2 class="h1 heading font-weight-bold">Artikel lawas</h2>
             </div>
         </div>
 
@@ -51,7 +51,7 @@
         <div class="row">
             <div class="col-lg-12 ml-n3 mt-4">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb bg-transparent">
+                    <ol class="breadcrumb bg-transparent badan">
                         <li class="breadcrumb-item"><a href="/">Home</a></li>
                         <li class="breadcrumb-item"><a href="/artikel">Artikel</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Lawas</li>
@@ -66,112 +66,26 @@
 
         <div class="row">
             <!-- First Card -->
-            <div class="col-lg-4">
-                <div class="card-deck">
-
-                    <div class="card">
-
-                        <img class="card-img-top img-fluid" src="<?= base_url('src/img/artikel/img1.png') ?>" alt="Card image cap">
-
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content.
-                                <a href="<?= base_url('artikel/lawas/artikel1') ?>">
-                                    <strong> Baca selengkapnya</strong>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- Second Card -->
-            <div class="col-lg-4">
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="<?= base_url('src/img/artikel/img2.png') ?>" alt="Card image cap">
-                        <div class="card-body ">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content.
-                                <a href="#">
-                                    <strong> Baca selengkapnya</strong>
-                                </a>
-                            </p>
+            <?php $nomor = 1 ?>
+            <?php foreach ($dataLawas as $d) : ?>
+                <div class="col-lg-4">
+                    <div class="card-deck">
+                        <div class="card">
+                            <img class="card-img-top img-fluid" src="<?= base_url('src/img/artikel/detail_artikel/' . $d->gambar) ?>" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title heading font-weight-bold"><?= $d->judul ?></h5>
+                                <p class="card-text text-justify badan"><?= substr($d->berita, 0, 120) . '...' ?>
+                                    <a href="<?= base_url('Artikel/detailLawas/' . $d->id) ?>">
+                                        <strong>Baca selengkapnya</strong>
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- Third Card -->
-            <div class="col-lg-4">
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="<?= base_url('src/img/artikel/img1.png') ?>" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content.
-                                <a href="#">
-                                    <strong> Baca selengkapnya</strong>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- First Card -->
-            <div class="col-lg-4">
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="<?= base_url('src/img/artikel/img1.png') ?>" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content.
-                                <a href="#">
-                                    <strong> Baca selengkapnya</strong>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Second Card -->
-            <div class="col-lg-4">
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="<?= base_url('src/img/artikel/img2.png') ?>" alt="Card image cap">
-                        <div class="card-body ">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content.
-                                <a href="#">
-                                    <strong> Baca selengkapnya</strong>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Third Card -->
-            <div class="col-lg-4">
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top img-fluid" src="<?= base_url('src/img/artikel/img1.png') ?>" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text text-justify">This is a longer card with supporting text below as a natural lead-in to additional content.
-                                <a href="#">
-                                    <strong> Baca selengkapnya</strong>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <?php $nomor++ ?>
+                <?php if ($nomor == 4) $nomor = 1 ?>
+            <?php endforeach ?>
+            <!-- Akhir Cards -->
         </div>
-
-        <!-- Akhir Cards -->
-    </div>
 </section>

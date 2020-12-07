@@ -2,8 +2,14 @@
 
 namespace App\Controllers;
 
+use App\Models\ArtikelLawasModel;
+
 class Artikel extends BaseController
 {
+    public function __construct()
+    {
+        $this->lawasModel = new ArtikelLawasModel();
+    }
     public function index()
     {
         echo view('header_v');
@@ -24,14 +30,19 @@ class Artikel extends BaseController
     }
     public function lawas()
     {
+        $data['dataLawas'] = $this->lawasModel->findAll();
+
         echo view('header_v');
-        echo view('artikel/artikel_lawas_v');
+        echo view('artikel/artikel_lawas_v', $data);
         echo view('footer_v');
     }
-    public function artikel1()
+    public function detailLawas($id)
     {
+        $data['dataLawasAll'] = $this->lawasModel->findAll();
+        $data['dataLawas'] = $this->lawasModel->find($id);
+
         echo view('header_v');
-        echo view('artikel/artikel_detail_lawas1_v');
+        echo view('artikel/artikel_detail_lawas_v', $data);
         echo view('footer_v');
     }
 

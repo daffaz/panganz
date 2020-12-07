@@ -20,12 +20,8 @@
                     </div>
                     <h1 class="heading font-weight-bold mt-3" style="color: #2D874F"><?= $dataAcara->acara ?></h1>
                     <h3 class="badan my-4"><strong>Tiket untuk: </strong>1 orang</h3>
-                    <p class="badan h4">Your cooked meals and vacuum-packed bistro meals
-                        delivered in your daily life, every Tuesday, in several
-                        Quebec cities. Treat yourself to more fun in life, like
-                        in the kitchen. lorem ipsum dolor et simet lorem
-                        ipsum dolor et simet lorem ipsum dolor et simet. </p>
-                    <button class="h4 mt-2 bg-hijau border-0 text-white font-weight-bold rounded-pill py-2 px-5" onclick="window.location.href='<?= base_url('form') ?>'">Daftar Sekarang</button>
+                    <p class="badan h4"><?= $dataAcara->konten ?></p>
+                    <button class="h4 bg-hijau border-0 text-white font-weight-bold rounded-pill py-2 px-5 mt-5" onclick="window.location.href='<?= base_url('form') ?>'">Daftar Sekarang</button>
                 </div>
             </div>
         </div>

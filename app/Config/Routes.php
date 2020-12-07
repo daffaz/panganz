@@ -37,7 +37,6 @@ $routes->get('/acara', 'Acara::index');
 // $routes->get('/acara/detail/{id}', 'Acara::detail');
 // ARTIKEL
 $routes->get('/artikel', 'Artikel::index');
-$routes->get('/artikel/lawas/artikel1', 'Artikel::artikel1');
 // KONTAK
 $routes->get('/kontak', 'Kontak::index');
 

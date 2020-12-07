@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row pt-5 mb-5 pb-4">
             <div class="col-lg-6 mt-4">
-                <h1 class="heading font-weight-bold" style="color:#216869;">Lorem ipsum dolor, <br> sit amet consectetur you</h1>
+                <h1 class="heading font-weight-bold" style="color:#216869;">Bila ingin <br> Menghubungi Kami</h1>
                 <div class="row mt-4">
                     <div class="col-lg-5">
                         <h5 class="heading">Masalah bisnis</h5>
