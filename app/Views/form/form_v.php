@@ -118,7 +118,8 @@
                     <img src="<?= base_url('src/img/form.svg') ?>" alt="" style="width:96%;">
                 </div>
 
-                <div class="btn rounded-pill ml-4 pr-5 pl-5 font-weight-bold text-white" style="background-color:#216869;" data-toggle="modal" data-target="#exampleModalCenter">Daftar</div>
+                <!-- <div class="btn rounded-pill ml-4 pr-5 pl-5 font-weight-bold text-white" style="background-color:#216869;" data-toggle="modal" data-target="#exampleModalCenter" type="reset">Daftar</div> -->
+                <input class="btn rounded-pill ml-4 pr-5 pl-5 font-weight-bold text-white" style="background-color:#216869;" data-toggle="modal" data-target="#exampleModalCenter" type="reset" value="Daftar">
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">

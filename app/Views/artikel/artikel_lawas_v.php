@@ -86,6 +86,7 @@
                 <?php $nomor++ ?>
                 <?php if ($nomor == 4) $nomor = 1 ?>
             <?php endforeach ?>
-            <!-- Akhir Cards -->
         </div>
+        <!-- Akhir Cards -->
+    </div>
 </section>
