@@ -2,7 +2,7 @@
 <div class="container-fluid">
 
     <!-- Page Heading -->
-    <h1 class="h3 mb-4 text-gray-800">wassup</h1>
+    <h1 class="h3 mb-4 text-gray-800">hi guys</h1>
 
 </div>
 <!-- /.container-fluid -->
