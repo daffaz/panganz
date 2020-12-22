@@ -53,7 +53,9 @@
                     <div class="col-12 d-flex my-3">
                         <img class="img-fluid w-25" src="<?= base_url('src/img/artikel/detail_artikel/' . $dataLawasAll[$i]->gambar) ?>">
                         <div class="bg-hijau w-100 pl-5 py-3">
-                            <h3 class="text-white heading font-weight-bold"><?= $dataLawasAll[$i]->judul ?></h3>
+                            <a href="<?= base_url('Artikel/detailLawas/' . $dataLawasAll[$i]->id) ?>">
+                                <h3 class="text-white heading font-weight-bold"><?= $dataLawasAll[$i]->judul ?></h3>
+                            </a>
                             <h5 class="text-muted heading">#Lawas</h5>
                             <h6 class="badan text-white mt-3"><?= substr($dataLawasAll[$i]->berita, 0, 150) . '...' ?></h6>
                         </div>
