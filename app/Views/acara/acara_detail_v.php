@@ -9,10 +9,10 @@
                 </ol>
             </nav>
             <div class="row pt-3">
-                <?php $dataAcara->id < 6 ? $nomor = $dataAcara->id : $nomor = rand(1, 5) ?>
+                <?php $dataAcara->id < 6  ? $nomor = $dataAcara->id : $nomor = 1 ?>
                 <div class="col-lg-6 col-sm-12">
                     <img src="<?= base_url('src/img/detail_acara/acara' . $nomor . '.svg') ?>" class="img-fluid position-relative">
-                    <h1 class="position-absolute text-white font-weight-bold" style="top: 38%;left:96px;font-size: 4.8rem"><?= $dataAcara->acara ?></h1>
+                    <h1 class="position-absolute text-white font-weight-bold heading" style="top: 38%;left:96px;font-size: 4.8rem"><?= $dataAcara->acara ?></h1>
                 </div>
                 <div class="col-lg-6 col-sm-12">
                     <div class="mt-lg-0 mt-xs-5">

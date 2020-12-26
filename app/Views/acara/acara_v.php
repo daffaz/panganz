@@ -19,13 +19,12 @@
                             </a>
                             <div class="card-body">
                                 <h3 class="text-center heading mt-n2"><strong><?= $d->judul ?></strong></h3>
-                                <!-- <h3 class="text-center heading mt-n2"><strong><?= $d->acara ?></strong></h3> -->
-                                <p class="card-text heading text-center"><?= $d->konten ?></p>
+                                <p class="card-text heading text-center"><?= substr($d->konten, 0, 100) . '...' ?></p>
                             </div>
                         </div>
                     </div>
                     <?php $nomor++;
-                    if ($nomor == 7) $nomor = 1 ?>
+                    if ($nomor == 6) $nomor = 1 ?>
                 <?php endforeach ?>
             </div>
         </div>

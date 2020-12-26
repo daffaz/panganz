@@ -60,6 +60,20 @@
             <span>Manage acara</span>
         </a>
     </li>
+    <hr class="sidebar-divider">
+
+    <!-- Heading -->
+    <div class="sidebar-heading">
+        Registered users
+    </div>
+
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="<?= base_url('SangatRahasia/adminUser') ?>">
+            <i class="fas fa-calendar-week"></i>
+            <span>Manage users</span>
+        </a>
+    </li>
     <!-- Divider -->
     <hr class="sidebar-divider">
 
